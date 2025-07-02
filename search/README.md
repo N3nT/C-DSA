@@ -1,17 +1,18 @@
-## Linear search
-Time complexity: O(n)
-Auxiliary Space: O(1)
+## [Linear search](linear_search.c)
+Time complexity: O(n)<br>
+Auxiliary Space: O(1)<br>
 
 ---
 
-## Binary search
-Time complexity: O(log N)
-Auxiliary Space: O(1)
+## [Binary search](binary_search.c)
+Time complexity: O(log N)<br>
+Auxiliary Space: O(1)<br>
 
 Array must be sorted.
+
 ---
 
-## Interpolation search
-Time complexity: O(loglog N)
-Auxiliary Space: O(1)
+## [Interpolation search](interpolation_search.c)
+Time complexity: O(loglog N)<br>
+Auxiliary Space: O(1)<br>
 
