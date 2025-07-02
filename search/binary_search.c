@@ -1,4 +1,7 @@
 int binary_search(int *arr, int size, int target){
+    // *arr - pointer to array with int's
+    // size - number of elements in array
+    // target - the number we want to find
     int left = 0;
     int right = size - 1;
 
