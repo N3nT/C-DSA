@@ -1,8 +1,8 @@
 ## [Bubble sort](bubble_sort.c)
 Time complexity: O(n<sup>2</sup>)<br>
 Auxiliary Space: O(1)<br>
-The algorithm is not stable.
-The algorithm is not natural.
+The algorithm is not stable.<br>
+The algorithm is not natural.<br>
 
 *Description: not yet.*
 
