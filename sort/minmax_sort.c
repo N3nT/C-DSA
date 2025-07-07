@@ -36,6 +36,7 @@ int max(int *arr, int start, int end){
 }
 
 void minmax_sort(int *arr, int start, int end){
+    // Sorts an array using the minmax sort algorithm
     // *arr - pointer to array with int's
     // start - first index
     // end - last index

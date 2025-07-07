@@ -7,7 +7,6 @@ Auxiliary Space: O(1)<br>
 ## [Binary search](binary_search.c)
 Time complexity: O(log N)<br>
 Auxiliary Space: O(1)<br>
-
 Array must be sorted.
 
 ---
