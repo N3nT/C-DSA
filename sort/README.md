@@ -75,3 +75,23 @@ The algorithm is stable.<br>
 The algorithm is not natural.<br>
 
 *Description: Merge Sort is a divide-and-conquer sorting algorithm. It recursively divides the array into halves, sorts each half, and then merges the sorted halves into a single sorted array.*
+
+---
+
+## [Heap sort](heap_sort.c)
+Time complexity: O(n log n)<br>
+Auxiliary Space: O(n)<br>
+The algorithm is stable.<br>
+The algorithm is not natural.<br>
+
+*Description: Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It first builds a max heap from the input data, then repeatedly extracts the maximum element from the heap and rebuilds the heap until the array is sorted.*
+
+---
+
+## [Bogo sort](bogo_sort.c)
+Time complexity: O(inf)<br>
+Auxiliary Space: O(n)<br>
+The algorithm is not stable.<br>
+The algorithm is not natural.<br>
+
+*Description: Bogo Sort is a highly inefficient sorting algorithm that randomly shuffles the elements of the array until they are sorted. It is mainly used for educational or entertainment purposes and is not practical for real-world applications.*
