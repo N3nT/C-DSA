@@ -95,3 +95,24 @@ The algorithm is not stable.<br>
 The algorithm is not natural.<br>
 
 *Description: Bogo Sort is a highly inefficient sorting algorithm that randomly shuffles the elements of the array until they are sorted. It is mainly used for educational or entertainment purposes and is not practical for real-world applications.*
+
+---
+
+## [Quick sort](quick_sort.c)
+Time complexity: O(nlogn)<br>
+Auxiliary Space: O(n)<br>
+The algorithm is not stable.<br>
+The algorithm is not natural.<br>
+
+*Description: Quick Sort is an efficient, divide-and-conquer sorting algorithm that selects a pivot element and recursively partitions the array into subarrays of elements less than and greater than the pivot. It has good average-case performance and is widely used in practice.*
+
+---
+
+## [Bucket Sort](bucket_sort.c)
+Time complexity: Average case O(n)<br>
+Auxiliary Space: O(n + k)<br>
+The algorithm is stable (if stable sort is used inside buckets).<br>
+The algorithm is natural for data uniformly distributed over a range.<br>
+
+*Description: Bucket Sort distributes elements into several buckets based on their values, then sorts each bucket individually (usually with insertion sort), and finally concatenates the sorted buckets. It works efficiently when input data is uniformly distributed and is mainly used for sorting floating-point numbers or integers within a known range.*
+
