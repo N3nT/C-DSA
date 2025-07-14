@@ -1,6 +1,11 @@
 #include <stdlib.h>
 
 void merge(int *arr, int left, int mid, int right){
+    // Merges two sorted subarrays into one sorted range.
+    // arr - pointer to the full array
+    // left - starting index
+    // mid - ending index of first subarray
+    // right - ending index of the second subarray
     int n1 = mid - left + 1;
     int n2 = right - mid;
 
@@ -38,6 +43,10 @@ void merge(int *arr, int left, int mid, int right){
 }
 
 void merge_sort(int *arr, int left, int right){
+    // Sorts an array using the merge sort algorithm
+    // arr - pointer to the full array
+    // left - starting index
+    // right - ending index
     if(left < right){
         int mid = (left+right)/2;
         merge_sort(arr, left, mid);
