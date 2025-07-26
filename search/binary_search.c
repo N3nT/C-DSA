@@ -5,7 +5,8 @@ int binary_search(int *arr, int left, int right, int target){
     // right - ending index
     // target - value to search for
     while (left <= right){
-        int mid = (left + right) / 2;
+        // int mid = (left + right) / 2; // possible overflow in large numbers
+        int mid = left + (right - left) / 2;
 
         if (arr[mid] == target) return mid;
         else if(arr[mid] > target) right = mid - 1;

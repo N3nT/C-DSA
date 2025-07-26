@@ -11,6 +11,8 @@
     10. [Quick sort](/sort/quick_sort.c)
     11. [Radix sort](/sort/radix_sort.c)
     12. [Selection sort](/sort/selection_sort.c)
+    13. [Gnome sort](/sort/gnome_sort.c)
+    14. [Shell sort](/sort/shell_sort.c)
 
 2. ## [Search](/search/)
     1. [Binary search](/search/binary_search.c)
